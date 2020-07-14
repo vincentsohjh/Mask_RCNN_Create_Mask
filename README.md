@@ -11,7 +11,8 @@ Here is the original image.
 
 
 Here is an overlay of the masks on the image.
-![Mask Overlay](filename.png)
+
+![Mask Overlay](mask_overlay.png)
 
 
 Here is the masked image after the objects are detected, and the masks combined.
