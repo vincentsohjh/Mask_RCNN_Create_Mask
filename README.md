@@ -1,3 +1,26 @@
+# Creating image msks from detected objects from Mask R-CNN
+
+This is a modified implementation from the main Mark R-CNN for Object Detection and Segmentation.
+
+The Mask-RCNN object detection script has been updated to support TF 2.0.
+
+It combines all the object masks, and creates the corresponding image mask to the image.
+
+Here is the original image.
+![Original Image](1.jpeg)
+
+Here is the masked image after the objects are detected, and the masks combined.
+
+![Mask Output](mask_output.jpg)
+
+
+
+## Running the script
+
+python rcnn_create_mask.py 1.jpeg
+
+
+
 # Mask R-CNN for Object Detection and Segmentation
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
