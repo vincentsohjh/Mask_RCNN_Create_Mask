@@ -10,11 +10,15 @@ Here is the original image.
 ![Original Image](1.jpeg)
 
 Here is the masked image after the objects are detected, and the masks combined.
+
 ![Mask Output](mask_output.jpg)
+
+
 
 ## Running the script
 
 python rcnn_create_mask.py 1.jpeg
+
 
 
 # Mask R-CNN for Object Detection and Segmentation
