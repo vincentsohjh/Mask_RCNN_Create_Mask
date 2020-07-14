@@ -207,7 +207,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     ax.imshow(masked_image.astype(np.uint8))
 
     if auto_show:
-        plt.savefig("./file_name.png")
+        plt.savefig("./mask_overlay.png")
         plt.show()
      
     mask_total = mask_total * 255
