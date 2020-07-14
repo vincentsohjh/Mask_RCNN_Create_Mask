@@ -9,16 +9,11 @@ It combines all the object masks, and creates the corresponding image mask to th
 Here is the original image.
 ![Original Image](1.jpeg)
 
-
 Here is an overlay of the masks on the image.
-
 ![Mask Overlay](mask_overlay.png)
 
-
 Here is the masked image after the objects are detected, and the masks combined.
-
 ![Mask Output](mask_output.jpg)
-
 
 
 ## Running the script
